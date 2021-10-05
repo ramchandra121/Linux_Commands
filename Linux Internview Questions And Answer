@@ -1,0 +1,114 @@
+Q1. What do you mean by Linux? Explain its features.
+
+Linux is a Unix-like open-source computer operating system (OS) that directly manages hardware and resources of a system such as CPU, memory,
+and storage, and manages the communication between software and hardware. It was first released on 5 October 1991 by Linus Torvalds for computers
+and is considered more secure and faster than Windows. It is freely distributable and is generally built around Linux Kernel (low-level system 
+software that is used to manage hardware resources for users). Furthermore, it can be installed in mobiles, laptops, computers, notebooks, etc.
+Flavors of Linux OS include Ubuntu, Debian, SUSE Linux, Gentoo, etc.  
+
+Some important features of Linux OS include: 
+
+1) Free and Open Source: It is freely and easily available to anyone.
+2) Robust and Adaptable: Linux can operate for prolonged periods without crashing and considered to have very much immune to security threats.
+3) More secure: It is more secure as it provides security using authentication features like password authentication, security auditing, and file system access control.
+4) Multiprogramming System: More than one can function or an application can run simultaneously.
+5) Application Support: It has its own software repository i.e., place or storage location from where software can be retrieved so that users can download and install applications.
+6) Supports customized keywords: There are many different languages used throughout the world, therefore Linux supports the installation of multiple languages keyboards.
+7) GUI (Graphical User Interface): It provides an interface for users to interact with the system and allows to use of GUI applications such as VLC, Firefox, etc.
+8) Enhance your chances of performing well in the interviews with our comprehensive guide, which covers important topics on Linux to help freshers, as well as experienced candidates,
+    ace their interviews.
+
+
+Q2. What are basic elements or components of Linux?
+
+1) Kernel: It is considered a core or main part of Linux and is generally responsible for all major activities of OS such as process management, 
+   device management, etc.  
+2) System Library: These are special functions or programs with the help of which application programs or system utilities can access features of 
+   the kernel without any requirement of code. It is simply used to implement the functionality of the OS. 
+3) System Utility: These are utility programs that are responsible to perform specialized and individual-level tasks. They are considered more liable 
+   and allow users to manage the computer.  
+4) Hardware: It is physical hardware that includes items such as a mouse, keyboard, display, CPU, etc. 
+5) Shell: It is an environment in which we can run our commands, shell scripts, and programs. It is an interface between user and kernel that hides all
+    complexities of functions of the kernel from the user. It is used to execute commands. 
+
+Q3.  What is BASH?
+
+BASH (Bourne Again Shell) is basically a command language interpreter. It was written by Brian Fox for GNU OS and can be used in place of Bourne Shell.
+It is similar to Bourne Shell but includes some additional features such as command-line editing that make it easier and more convenient to use. It is 
+the default user shell on most Linux installations. It is basically an interpreted and non-compiled process that can also run in the terminal window. 
+It is also capable of reading commands from shell scripts.
+
+Q4. What are two types of Linux User Mode?
+
+There are two types of Linux user mode as given below:  
+
+1. Command Line 
+2. GUI  
+
+Q5. What is LILO? 
+
+LILO (Linux Loader) is basically a bootloader for Linux that is used to load Linux into memory and start the OS. It is also known as a boot manager that
+facilitates a dual boot of a computer. It can function as either a master boot program or secondary boot program and performs various functions such as
+locating kernel, identifying other supporting programs, loading memory, and starting the kernel. If you want to use Linux OS, then you need to install a 
+special bootloader i.e., LILO for it as it allows fast boot of Linux OS. 
+
+Q6. What is swap space?
+
+Swap space, as the name suggests, is basically a space on a hard disk that is used when the amount of physical memory or RAM is full. It is considered a 
+substitute for physical memory. Its main function is to substitute disk space for RAM memory when real RAM does not have enough space to hold all programs
+that are executing, and more space is required. In simple words, it can be used as an extension of RAM by Linux.
+
+Q7. What is a maximum length for a filename under Linux?
+
+The maximum length for a filename under Linux is 255 bytes. 
+
+Q8.  Name the Linux that is specially designed by Sun micro system.
+
+Linux that is specially designed by Sun micro system is Solaris.
+
+Q9.  Under the Linux system, what is the typical size for swap partitions?
+
+The typical size for a swap partition under a Linux system should be twice the amount of physical memory or RAM available on the system.
+
+Q10. Name the file that is used to automatically mount file systems.
+
+File that is used to automatically mount file systems is a Fstab file. 
+
+
+Q11.  What is LVM and why is it required?
+
+LVM (Logical Volume Management) is basically a tool that provides logical volume management for the Linux kernel. It is being introduced 
+simply to make physical storage device management easier. It also includes allocating disks, striping, mirroring, resizing logical volumes. 
+Its main advantages are increased abstraction, flexibility, and control. It simply allows for flexible disk space management. It is especially 
+required to resize the size of the file system online. In Linux, the size of the LVM partition can be extended using “lvextend” command and can be
+reduced using “lvreduce” commands, respectively.  
+
+
+Q12. What is a “/proc” file system?
+
+Proc file system is a pseudo or virtual file system that provides an interface to the kernel data structure. It generally includes useful information 
+about processes that are running currently. It can also be used to change some kernel parameters at runtime or during execution. It is also regarded as
+a control and information center for the kernel. All files under this directory are named virtual files.
+
+Q13. Name daemon that controls the print spooling process.
+
+The daemon that controls that print spooling process is the Line printing daemon. 
+
+Q14. What is the difference between cron and anacron?
+
+Cron: It is a program in Linux that is used to execute tasks at a scheduled time. It works effectively on machines that run continuously. 
+
+Anacron: It is a program in Linux that is used to execute tasks at certain intervals. It works effectively on machines that are powered off in a day or week. 
+
+Q15.  What is load average in Linux?
+
+Load average, as the name suggests, is the average system load on Linux servers being calculated over a given period of time. The load average of Linux servers
+can be found using “top” and “uptime” commands. It is simply used to keep track of system resources. It is represented by a decimal number starting at 0.00.  
+It tells you the load that the system has been under.
+
+
+
+
+
+
+
