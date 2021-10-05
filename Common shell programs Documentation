@@ -1,0 +1,35 @@
+The UNIX shell program interprets user commands, which are either directly entered by the user, or which can be read from a file called the shell script or shell program. Shell scripts are interpreted, not compiled. The shell reads commands from the script line per line and searches for those commands on the system (see Section 1.2), while a compiler converts a program into machine readable form, an executable file - which may then be used in a shell script.
+ 
+ 
+                         Shell types
+                         
+1) sh or Bourne Shell: the original shell still used on UNIX systems and in UNIX-related environments. This is the basic shell, a small program with few features. While this is not the standard shell, it is still available on every Linux system for compatibility with UNIX programs.
+
+2) bash or Bourne Again shell: the standard GNU shell, intuitive and flexible. Probably most advisable for beginning users while being at the same time a powerful tool for the advanced and professional user. On Linux, bash is the standard shell for common users. This shell is a so-called superset of the Bourne shell, a set of add-ons and plug-ins. This means that the Bourne Again shell is compatible with the Bourne shell: commands that work in sh, also work in bash. However, the reverse is not always the case. All examples and exercises in this book use bash.
+
+3) csh or C shell: the syntax of this shell resembles that of the C programming language. Sometimes asked for by programmers.
+
+4) tcsh or Turbo C shell: a superset of the common C shell, enhancing user-friendliness and speed.
+
+5) ksh or the Korn shell: sometimes appreciated by people with a UNIX background. A superset of the Bourne shell; with standard configuration a nightmare for beginning users.
+
+ 
+ The file /etc/shells gives an overview of known shells on a Linux system:
+
+
+mia:~> cat /etc/shells
+/bin/bash
+/bin/sh
+/bin/tcsh
+/bin/csh
+
+
+Our default shell is set in the /etc/passwd file, like this line for user mia:
+
+
+mia:L2NOfqdlPrHwE:504:504:Mia Maya:/home/mia:/bin/bash
+To switch from one shell to another, just enter the name of the new shell in the active terminal. The system finds the directory where the name occurs using the PATH settings, and since a shell is an executable file (program), the current shell activates it and it gets executed. A new prompt is usually shown, because each shell has its typical appearance:
+
+
+mia:~> tcsh
+[mia@post21 ~]$
